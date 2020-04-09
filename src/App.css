@@ -1,0 +1,170 @@
+html {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+
+  background-color: orange !important;
+}
+
+body {
+  height: 100%;
+}
+
+.pagination {
+  margin-left: 48%;
+}
+
+.form-inp {
+  margin-left: 8% !important;
+}
+
+.custom-bt {
+  margin-left: 44%;
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+
+.event-title {
+  padding-top: 80px;
+  font-weight: '700';
+}
+
+.event-link {
+  margin: 20px !important;
+}
+
+.event-info {
+  max-width: 90%;
+  margin: 0 auto;
+  border: 2px double orange;
+  margin-top: 100px;
+
+  padding: 5px;
+}
+
+.bt-custom {
+  margin-left: 44%;
+  margin-top: 40px;
+}
+
+.table-style {
+  margin: 20px;
+  max-width: 90%;
+  margin: 0 auto;
+  border: 2px double orange;
+  padding: 5px;
+}
+
+.loginImg {
+  width: 65px !important;
+  margin: 10px;
+}
+
+.login-ticketswap {
+  margin: 85px;
+  font-weight: 700;
+}
+
+.event-parent-div {
+  display: flex;
+  float: left;
+  margin: 0 auto;
+  align-items: flexStart;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  background: white;
+}
+
+.headline-style {
+  margin: 30px;
+  margin-top: 0px;
+  font-weight: 800;
+  font-size: 90px;
+}
+
+.card-style {
+  width: 17.5rem;
+  max-height: 30rem;
+  margin-bottom: 20px;
+  border: 2px double orange;
+}
+
+.p-s {
+  font-weight: 550;
+}
+
+.event-links {
+  font-weight: 800;
+  color: blue;
+}
+
+.event-name {
+  margin-top: 18px;
+  font-weight: 550;
+  color: black;
+}
+
+.card-img-style {
+  height: 12rem;
+  margin-top: 8px;
+}
+
+.welcome-to {
+  padding-top: 100px;
+}
+
+.browse-our-events {
+  margin: 80px;
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-weight: 550;
+}
+.or {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.main-page-title {
+  font-weight: 1000;
+  font-size: 55px;
+  margin: 30px;
+  letter-spacing: 10px;
+}
+
+.create-event-form {
+  margin-top: 30px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.ticket-details-div {
+  padding: 20px;
+  border: 2px solid orange;
+  margin: 5px;
+  width: 95%;
+}
+
+.comment-box {
+  margin-left: 25% !important;
+}
+
+.create-event-form {
+  max-width: 90%;
+  margin-left: 5%;
+}
+.edit-event-form-div {
+  max-width: 90%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.form-style-event {
+  margin-left: 12%;
+}
