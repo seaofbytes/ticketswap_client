@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Frontend client for the Ticketswap clone project
 
-In the project directory, you can run:
+## Installation
+- clone the project : git clone https://github.com/seaofbytes/gamefront_client
+- install dependencies with npm / yarn install
+- npm / yarn start
 
-### `yarn start`
+Ticketswap clone is a website that was created in 4 days as a final assignment from Codaisseur Coding Academy. Users can register accounts, create / edit new events and tickets and post comments.
+User can also see each ticket's risk factor ( see below on how it is calculated ).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## User stories
+* As a customer I want to see max. 9 events on a page and be able to click 'next' to see more pages of events if there are more
+* As a customer I only want to see events that are not finished yet
+* As a customer I want to view a list of tickets when I click on an event
+* As a customer I want to view ticket details when I click on a ticket in the ticket list
+* As a customer I want to see what the fraud-risk is for a specific ticket
+* As a customer I want to be able to login, or sign up if I don't have an account yet
+* As a logged in customer I want to add a ticket (for a specific event) that shows up on the event page with a title, picture, price and description
+* As an author of the ticket I want to be able to edit a ticket's description, price and picture (other logged in customers cannot do this! only the user that created the ticket can edit it)
+* As a logged in customer I want to be able to create events with a name, picture (logo), date and description
+* As a customer I can see some color (red/yellow/green) indicating the fraud risk of a ticket for all tickets in the all tickets list
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+# Backend for the client
+ [Backend](https://github.com/seaofbytes/ticketswap_server)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## The frontend for the webshop is built with: 
+- [React](https://reactjs.org/)
+- [React-Redux](https://react-redux.js.org/)
+- [Redux - Thunk](https://github.com/reduxjs/redux-thunk)
+- [Superagent](https://www.npmjs.com/package/superagent)
+- [React - Stripe](https://stripe.com/docs/stripe-js/react)   
+- [JWT Decode](https://github.com/auth0/jwt-decode) 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## App Showcase
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Products Page
+<img src="https://media.giphy.com/media/WUxzJc2axR74BU80UY/giphy.gif"  width="800px" height="570px"/>
 
-### `yarn eject`
+## Cart
+<img src="https://media.giphy.com/media/iILsV9hUa4iJmUuzZi/giphy.gif"  width="800px" height="570px"/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Order Payment
+<img src="https://media.giphy.com/media/YOdVUMwxhTEqM05URE/giphy.gif" width="800px" height="570px"/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
