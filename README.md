@@ -55,13 +55,13 @@ The minimal risk is 5% (there's no such thing as no risk) and the maximum risk i
 <img src="https://imgshare.io/images/2020/04/10/ts-login.png"  width="800px" maxHeight="570px"/>
 
 ## Event List Page
-<img src="https://imgshare.io/images/2020/04/10/events-page.png"  width="800px" height="570px"/>
+<img src="https://imgshare.io/images/2020/04/10/events-page.png"  width="800px" maxHeight="570px"/>
 
 ## Event Detail Page 
-<img src="https://imgshare.io/images/2020/04/10/event-detail.png" width="800px" height="570px"/>
+<img src="https://imgshare.io/images/2020/04/10/event-detail.png" width="800px" maxHeight="570px"/>
 
 ## Ticket Detail Page 
-<img src="https://imgshare.io/images/2020/04/10/ticket-detail.png" width="800px" height="570px"/>
+<img src="https://imgshare.io/images/2020/04/10/ticket-detail.png" width="800px" maxHeight="570px"/>
 
 
 
