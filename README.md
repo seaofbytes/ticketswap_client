@@ -23,7 +23,7 @@ User can also see each ticket's risk factor ( see below on how it is calculated 
 - [React - Stripe](https://stripe.com/docs/stripe-js/react)   
 - [JWT Decode](https://github.com/auth0/jwt-decode) 
 
-## Risk algorith calculation
+## Risk algorithm calculation rules
 
 * if the ticket is the only ticket of the author, add 10%
 * if the ticket price is lower than the average ticket price for that event, that's a risk
